@@ -1,0 +1,11 @@
+Oppgave 2. For å sjekke om kryptering-dekryptering ikke har endret filen kan du ha et program som sjekker om den 
+krypterte/dekrypterte filen er den samme som den originale filen.
+Oppgave 3. Man utfører versjonskontroll for at man skal klare å gå tilbake til forrige versjoner av prosjektet i ulike tilfeller, 
+det er også bra for hvis du bruker GitHub så blir det lagret online og som gjør det mye mer sikkert hvis du mister noe.
+
+
+Oppgave 4. Versjonskontroll er en måte på å lage endringer i f.eks. et program der vi kan gå tilbake til forrige versjoner om vi skulle trenge. 
+Oppgave 10. Dette er en kode på å finne kvadratroten av et tall.
+Oppgave 12. Så for sjakk programmet må man legge til at bare hvit kan begynne, brikkene kan bare gå der de skal og ikke over hele brettet, 
+legge til en mulighet til at man kan ta brikker og at de kommer opp på høyre siden av brettet. Også gjøre sånn at man ikke kan ta sin egen brikke over sin egen. 
+Med dette kan du legge til andre regler av sjakk som «en passant» osv.

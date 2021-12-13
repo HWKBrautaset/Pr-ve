@@ -39,3 +39,4 @@ def _sqrt_(num, tol = 0.001, decimals = 3):
             n1 = sq
         sq = n0 + (n1 - n0)/2
     return _round_(sq, decimals)
+print(_abs_)
