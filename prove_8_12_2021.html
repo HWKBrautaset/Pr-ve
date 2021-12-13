@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lykke til småfolk!</title>
+	<link rel="stylesheet" href="Style.css">
+	<link href="prism.css" rel="stylesheet">
+	<script src="prism.js"></script>
+</head>
+<body>
+	<h1>Prøve utviklerfaget 08.12.2021</h1>
+	
+<div id = "master_innlegg">
+<p>Alle hjelpemiddler er tillat utenom komunikasjon. </p><p>Besvarelsene der du bare skriver tekst skal leres som .txt, .html eller som .py fil.</p><p> Programmeringsoppgavene er laget med tanke på Python, men det er tillat å bruke JavaScript, Java, R, S, C++, MatLab, Fortrand, Jython eller Scratch. Dersom du ønsker å benytte et
+annet språk må du først spørre.</p>
+
+<p>Du skal levere inn flere filer. Disse skal være i en mappe. Det er ditt ansvar å strukturere mappen bra.</p>
+<p>Lykke til!</p></div>
+
+<div id = "master_innlegg">
+<h4>Oppgave 1</h4>
+<p>Sette opp (start) versjonskontroll i mappen som skal inneholde besvarelsen din.</p>
+
+</div>
+
+<div id = "master_innlegg">
+<h4>Oppgave 2</h4>
+<p>Du har laget ditt eget krypteringsprogram. Hvordan kan du kontrollere at kryptering-dekryptering ikke har endret dokumentet ditt?</p>
+
+</div>
+
+<div id = "master_innlegg">
+<h4>Oppgave 3</h4>
+<p>Hvorfor utfører du versjonskontroll når du arbeider med et prosjekt?</p>
+
+</div>
+
+
+<div id = "master_innlegg">
+<h4>Oppgave 4</h4>
+<p>Beskriv med egne ord hva versjonskontroll er. Hva er de ulike stegene? Hva skjer i de ulike stegene?</p>
+
+</div>
+
+<div id = "master_innlegg">
+<h4>Oppgave 5</h4>
+<p>Lag et program som skriver ut kompliment til en person i klasserommet. Eksempel på kompliment kan være:</p>
+<p><i>Kul hatt NAVN!</i></p>
+<p><i>Hei NAVN, så fin vest du har på deg!</i></p>
+<p>Du kan selvfølgelig finne på dine egne kompliment. <i>NAVN</i> skal selvfølgelig byttes ut med ett navn.</p>
+</div>
+
+<div id = "master_innlegg">
+<h4>Oppgave 6</h4>
+<p>Du skal lage et program læreren din kan bruke for å ta fravær. Programmet skal printe ut navnene på elevene i klassen din. Når ett navn er printet ut skal det vente på bruker-input før det neste navnet printes.</p>
+</div>
+
+<div id = "master_innlegg">
+<h4>Oppgave 7</h4>
+<p>I denne oppgaven skal du lage en quiz. En person må svare rett på tre spørsmål for ikke å tape. Det første sprøsmålet er </p>
+<p><i>Hva er navnet ditt?</i></p>
+<p>Det andre spørsmålet er, med svar:</p>
+<p><i>Hva er oppdraget ditt? -SVAR: Å søke den hellige gral.</i></p>
+<p>Det tredje og siste spørsmålet kan være ett av spørsmålene:</p>
+<p><i>Hva er din favorittfarge?</i></p>
+<p><i>Hva er hovedstanden i Assyria? -SVAR: Assur</i></p>
+<p><i>Hva er lufthastigheten til en svale som ikke bærer på noe? -SVAR: 11m/s</i></p>
+</div>
+
+
+
+<div id = "master_innlegg">
+<h4>Oppgave 8</h4>
+<p>Du skal spille poker med noen venner, men mangler penger/sjetonger. Lag et program som holder styr på hvor mye penger hver av spillerne har.</p>
+</div>
+
+
+<div id = "master_innlegg">
+<h4>Oppgave 9</h4>
+<p>Bruk programmet under til å kryptere besvarelsen i Oppgave 2. Koden kan du også finne i filen <i>cesar.py</i>. Oppgave 2 skal dermed leveres to ulike steder! (en ikke-kryptert versjon og en kryptert)</p>
+</div>
+
+<div id = "koding">
+<pre>
+<code class="language-py">
+def cesar_encrypt(text_som_skal_krypteres):
+    text_som_skal_krypteres = text_som_skal_krypteres.lower()
+    abc = ".,abcdefghij klmnopqrstuvwxyzæøå"
+    acb = "åæøxyz t.,uvabcdefghijklmnopqrst"
+    kryptert_text = ''
+    for i in text_som_skal_krypteres:
+        n = 0
+        for j in abc:
+            if j == i:
+                kryptert_text += acb[n]
+                break
+            n += 1
+    return(kryptert_text)
+</code>
+</pre>
+</div>
+
+
+
+
+
+<div id = "master_innlegg">
+<h4>Oppgave 10</h4>
+<p>Finn ut og forklar hva koden under gjør. Koden finner du i filen <i>matte.py</i>. </p>
+
+</div>
+
+
+
+<div id = "koding">
+<pre>
+<code class="language-py">
+def _abs_(num):
+	if num >= 0: 
+		return num
+	else: 
+		return num*-1
+</code>
+</pre>
+</div>
+
+
+<div id = "master_innlegg">
+<h4>Oppgave 11</h4>
+<p>Koden under viser begynnelesen av et terningsspill. Fullfør jobben. Du finner koden i filen <i>terningspill.py</i>.</p> <p>Tips: Gjør alle endringene du mener er nødvending.</p>
+</div>
+
+
+<div id = "koding">
+<pre>
+<code class="language-py">
+import random as rn
+
+while True:
+	num = rn.randint(0, 6)
+	print(num)
+</code>
+</pre>
+</div>
+
+<div id = "master_innlegg"><h4>Oppgave 12</h4>
+<p>Lag en liste med kritikk og mulige forbedringer til programmet <i>sjakkbrett.py</i>. Ta utgangspunkt i at du skal være en utvikler når du ser på programmet/programmeringen.</p>
+</div>
+
+
+<div id = "master_innlegg"><h4>Bonus</h4>
+<p>+ 0,5% til de som vet hva oppgave 7 refererer til.</p>
+</div>
+<div id = "master_innlegg">
+<p></p>
+</div>
+
+</html>
