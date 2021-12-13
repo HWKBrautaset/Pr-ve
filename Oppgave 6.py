@@ -20,12 +20,3 @@ print(f"Okei så alle elevene i klasserommet er {elever}", "og de som er her i d
 
 
 
-    #getname = input(str('enter your letter: '))
-#if students.count(getname) > 0:
-    #index = students.index(getname)
-    #if index >= half:
-        #print("Excusably late")
-   # else:
-       # print("Not Excusably late")
-#else:
-    #print("Absent")
