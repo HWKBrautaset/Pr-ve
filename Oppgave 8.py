@@ -1,0 +1,1 @@
+Navn = input("Hvem spiller idag?")

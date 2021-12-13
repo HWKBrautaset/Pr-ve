@@ -9,7 +9,7 @@ def _abs_(num):
         return num*-1
 
 
-#def _round_(num, length):
+def _round_(num, length):
     text = str(num)
     decimal = ''
     integer = ''
